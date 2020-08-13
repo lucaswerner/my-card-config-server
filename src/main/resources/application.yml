@@ -9,4 +9,4 @@ spring:
           enabled: false
         git:
           uri: https://github.com/lucaswerner/my-card-apps-config
-          search-paths: my-card-cards, my-card-transactions, my-card-users, my-card-auth
+          search-paths: my-card-cards, my-card-transactions, my-card-auth
