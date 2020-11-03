@@ -9,6 +9,14 @@ services:
       - "8888:8888"
     networks:
       - config-server-network
+    deploy:
+      resources:
+        limits:
+          cpus: '0.01'
+          memory: 128m
+        reservations:
+          cpus: '0.001'
+          memory: 20M
 
 networks:
   config-server-network:
